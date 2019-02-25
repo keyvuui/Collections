@@ -1,6 +1,4 @@
-# Welcome to my blog
-
-### Every issues is a post.
+# Some tricky issue solution
 
 ### TABLE OF CONTENT
 
