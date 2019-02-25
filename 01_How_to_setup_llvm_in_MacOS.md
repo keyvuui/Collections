@@ -3,14 +3,14 @@
 Contents
 --------
 
-- [Why don't use Apple clang toolchains but llvm](#why-dont-use-apple-clang-toolachains-but-llvm)
+- [Why don't use Apple clang toolchains but llvm](#why-don't-use-apple-clang-toolachains-but-llvm)
 - [How to install llvm](#how-to-install-llvm)
     - [Download the pre-compiled binary](#download-the-pre-compiled-binary)
     - [Build from source](#build-from-source)
     - [Install llvm from homebrew](#install-llvm-from-homebrew)
-- [How to config llvm](#how-to-comfig-llvm)
+- [How to config llvm](#how-to-config-llvm)
     - [Config your enveriment variables](#config-your-enveriment-variables)
-- [Config youcompleteme optional](#config-youcompleteme-optional)
+- [Config youcompleteme](#config-youcompleteme)
 
 ## Why don't use Apple clang toolchains but llvm?
 Apple clang is very new and don't need any preconfig. You can just use it when you run `xcode-select install`. But sometime it will not the latest version. You can't use some new added feature include clangd or new c++17 headers. So you may be want to use the llvm from [the LLVM project website](https://llvm.org).
@@ -52,7 +52,8 @@ You need to config it in your own shell profile. If you use bash you need to con
    ```shell
    export PATH=/usr/local/opt/llvm/bin/:$PATH
    ```
-## Config youcompleteme(optional)
+## Config youcompleteme
+**optional**
 
 If you use vim, you probable use youcompleteme. To use youcompleteme you need to add headers directory to your `.ycm_extra_conf.py`, such as:
     
