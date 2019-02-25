@@ -3,7 +3,7 @@
 Contents
 --------
 
-- [Why don't use Apple clang toolchains but llvm](#why-don't-use-apple-clang-toolachains-but-llvm)
+- [Why don't use Apple clang toolchains but llvm](#why-dont-use-apple-clang-toolchains-but-llvm)
 - [How to install llvm](#how-to-install-llvm)
     - [Download the pre-compiled binary](#download-the-pre-compiled-binary)
     - [Build from source](#build-from-source)
