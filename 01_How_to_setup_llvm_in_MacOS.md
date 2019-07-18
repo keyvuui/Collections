@@ -6,11 +6,11 @@
     -   [Contents][2]
     -   [Why don't use Apple clang toolchain but llvm?][3]
     -   [How to install llvm][4]
-        			\- [Download the pre-compiled binary][5]
-        			\- [Build from source][6]
-        			\- [Install llvm from homebrew][7]
+        -   [Download the pre-compiled binary][5]
+        -   [Build from source][6]
+        -   [Install llvm from homebrew][7]
     -   [How to config llvm][8]
-        			\- [Config your environment variables][9]
+        -   [Config your environment variables][9]
 
 ## Why don't use Apple clang toolchain but llvm?
 

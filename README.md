@@ -1,6 +1,6 @@
 # Some tricky issue solution
 
-## Table of content
+## Index
 
 1.  [How to setup llvm in MacOS](https://github.com/keyvchan/Collections/blob/master/01_How_to_setup_llvm_in_MacOS.md)
 2.  [Operating System concept Outline](https://github.com/keyvchan/Collections/blob/master/02_operation_system_outline.md)
