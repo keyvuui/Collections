@@ -1,20 +1,20 @@
 # How to setup llvm in MacOS
 
-## Contents
+## Table of contents
 
-- [How to setup llvm in MacOS](#How-to-setup-llvm-in-MacOS)
-  - [Contents](#Contents)
-  - [Why don't use Apple clang toolchain but llvm?](#Why-dont-use-Apple-clang-toolchain-but-llvm)
-  - [How to install llvm](#How-to-install-llvm)
-    - [Download the pre-compiled binary](#Download-the-pre-compiled-binary)
-    - [Build from source](#Build-from-source)
-    - [Install llvm from homebrew](#Install-llvm-from-homebrew)
-  - [How to config llvm](#How-to-config-llvm)
-    - [Config your environment variables](#Config-your-environment-variables)
+-   [How to setup llvm in MacOS][1]
+    -   [Contents][2]
+    -   [Why don't use Apple clang toolchain but llvm?][3]
+    -   [How to install llvm][4]
+        			\- [Download the pre-compiled binary][5]
+        			\- [Build from source][6]
+        			\- [Install llvm from homebrew][7]
+    -   [How to config llvm][8]
+        			\- [Config your environment variables][9]
 
 ## Why don't use Apple clang toolchain but llvm?
 
-Apple clang is very new and don't need any pre-config. You can just use it when you run `xcode-select install`. But sometime it will not the latest version. You can't use some new added feature include clangd or new c++17 headers. So you may be want to use the llvm from [the LLVM project website](https://llvm.org).
+Apple clang is very new and don't need any pre-config. You can just use it when you run `xcode-select install`. But sometime it will not the latest version. You can't use some new added feature include clangd or new c++17 headers. So you may be want to use the llvm from [the LLVM project website][10].
 
 ## How to install llvm
 
@@ -60,3 +60,23 @@ You need to config it in your own shell profile. If you use bash you need to con
     ```shell
     export PATH=/usr/local/opt/llvm/bin/:$PATH
     ```
+
+[1]: #How-to-setup-llvm-in-MacOS
+
+[2]: #Contents
+
+[3]: #Why-dont-use-Apple-clang-toolchain-but-llvm
+
+[4]: #How-to-install-llvm
+
+[5]: #Download-the-pre-compiled-binary
+
+[6]: #Build-from-source
+
+[7]: #Install-llvm-from-homebrew
+
+[8]: #How-to-config-llvm
+
+[9]: #Config-your-environment-variables
+
+[10]: https://llvm.org
