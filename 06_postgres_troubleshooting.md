@@ -1,10 +1,10 @@
-# postgresql troubleshooting
+# postgresql troubleshooting guidance
 
-This guide contains the common problem when using postgres daily.
+This guidance contains the common problem when using postgres daily.
 
 ## Table of content
 
-- [postgresql troubleshooting](#postgresql-troubleshooting)
+- [postgresql troubleshooting guidance](#postgresql-troubleshooting-guidance)
   - [Table of content](#Table-of-content)
   - [role "postgres" does not exist](#role-%22postgres%22-does-not-exist)
     - [Description](#Description)
