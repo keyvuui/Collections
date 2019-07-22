@@ -1,3 +1,6 @@
+# v2ray configuration example
+
+```json
 {
     "inbound": {
         "port": 11111,
@@ -32,3 +35,4 @@
         "settings": {}
     }
 }
+```
