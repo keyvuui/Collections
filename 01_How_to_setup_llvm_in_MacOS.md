@@ -1,6 +1,6 @@
 # How to setup llvm in MacOS
 
-## Table of contents
+## Index
 
 -   [How to setup llvm in MacOS][1]
     -   [Contents][2]
