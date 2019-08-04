@@ -11,3 +11,4 @@
 5.  [code snippets for python](https://keyvchan.github.io/Collections/05_code_snippets_python)
 6.  [Postgresql troubleshooting guidance](https://keyvchan.github.io/Collections/06_postgres_troubleshooting)
 7.  [Archlinux troubleshooting guidance](https://keyvchan.github.io/Collections/07_archlinux_troubleshooting)
+8.  [A guide to HTTPS](https://keyvchan.github.io/Collections/08_a_guide_to_https)

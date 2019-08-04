@@ -9,6 +9,9 @@ This guidance contains the most common problem user may occurs in archlinux dail
   - [`clang-format` failed by don't have some shared library(libtinfo.so.5)](#clang-format-failed-by-dont-have-some-shared-librarylibtinfoso5)
     - [Description](#description)
     - [Step](#step)
+  - [Can't resize the window of an archlinux guest in `vmware fusion`](#cant-resize-the-window-of-an-archlinux-guest-in-vmware-fusion)
+    - [Description](#description-1)
+    - [Step](#step-1)
 
 ## `clang-format` failed by don't have some shared library(libtinfo.so.5)
 
@@ -31,3 +34,17 @@ It's all about missing a shared library `libtinfo.so.5`. It is a symbol link to 
     ```shell
     $ clang-format foo.cpp
     ```
+
+## Can't resize the window of an archlinux guest in `vmware fusion`
+
+### Description
+
+When open a archlinux guest, I can't resize the window. Which means the screen won't autofill the whole window and resolution won't fit automatically.
+
+It may cause by `open-vm-tools`, you need to exit `vmware fusion` completely and reopen it. Besides, when you use a desktop vm which use `wayland`, you may get the same experience.
+
+### Step
+
+1.  Check wether `open-vm-tool` installed.
+2.  Exit `vmware fusion` and reopen it.
+3.  Resize and check if work.
