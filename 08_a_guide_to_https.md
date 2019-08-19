@@ -1,9 +1,9 @@
 # A guide to HTTPS
 
-## Index
+## Table of contents
 
 - [A guide to HTTPS](#a-guide-to-https)
-  - [Index](#index)
+  - [Table of contents](#table-of-contents)
   - [Intro](#intro)
   - [FAQ](#faq)
     - [What do a HTTPS server require, and what about a HTTPS client?](#what-do-a-https-server-require-and-what-about-a-https-client)

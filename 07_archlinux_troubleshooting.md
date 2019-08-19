@@ -2,10 +2,10 @@
 
 This guidance contains the most common problem user may occurs in archlinux daily use.
 
-## Index
+## Table of contents
 
 - [Archlinux troubleshooting guidance](#archlinux-troubleshooting-guidance)
-  - [Index](#index)
+  - [Table of contents](#table-of-contents)
   - [`clang-format` failed by don't have some shared library(libtinfo.so.5)](#clang-format-failed-by-dont-have-some-shared-librarylibtinfoso5)
     - [Description](#description)
     - [Step](#step)

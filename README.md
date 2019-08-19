@@ -1,8 +1,8 @@
-# Some tricky issue solution
+Some tricky issue solution
+==========================
 
-* * *
-
-## Index
+Index
+-----
 
 1.  [How to setup llvm in MacOS](https://keyvchan.github.io/Collections/01_How_to_setup_llvm_in_MacOS)
 2.  [Operating System concept Outline](https://keyvchan.github.io/Collections/02_operation_system_outline)

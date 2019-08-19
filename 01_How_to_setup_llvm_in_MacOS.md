@@ -1,16 +1,16 @@
 # How to setup llvm in MacOS
 
-## Index
+## Table of contents
 
--   [How to setup llvm in MacOS][1]
-    -   [Contents][2]
-    -   [Why don't use Apple clang toolchain but llvm?][3]
-    -   [How to install llvm][4]
-        -   [Download the pre-compiled binary][5]
-        -   [Build from source][6]
-        -   [Install llvm from homebrew][7]
-    -   [How to config llvm][8]
-        -   [Config your environment variables][9]
+- [How to setup llvm in MacOS](#how-to-setup-llvm-in-macos)
+  - [Table of contents](#table-of-contents)
+  - [Why don't use Apple clang toolchain but llvm?](#why-dont-use-apple-clang-toolchain-but-llvm)
+  - [How to install llvm](#how-to-install-llvm)
+    - [Download the pre-compiled binary](#download-the-pre-compiled-binary)
+    - [Build from source](#build-from-source)
+    - [Install llvm from homebrew](#install-llvm-from-homebrew)
+  - [How to config llvm](#how-to-config-llvm)
+    - [Config your environment variables](#config-your-environment-variables)
 
 ## Why don't use Apple clang toolchain but llvm?
 
@@ -60,23 +60,3 @@ You need to config it in your own shell profile. If you use bash you need to con
     ```shell
     export PATH=/usr/local/opt/llvm/bin/:$PATH
     ```
-
-[1]: #How-to-setup-llvm-in-MacOS
-
-[2]: #Contents
-
-[3]: #Why-dont-use-Apple-clang-toolchain-but-llvm
-
-[4]: #How-to-install-llvm
-
-[5]: #Download-the-pre-compiled-binary
-
-[6]: #Build-from-source
-
-[7]: #Install-llvm-from-homebrew
-
-[8]: #How-to-config-llvm
-
-[9]: #Config-your-environment-variables
-
-[10]: https://llvm.org

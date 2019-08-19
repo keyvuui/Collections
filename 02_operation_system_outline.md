@@ -1,9 +1,9 @@
 # Operating System Outline
 
-## Index
+## Table of contents
 
 - [Operating System Outline](#operating-system-outline)
-  - [Index](#index)
+  - [Table of contents](#table-of-contents)
   - [Virtualization](#virtualization)
     - [CPU](#cpu)
     - [Memory](#memory)

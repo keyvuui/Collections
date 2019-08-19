@@ -1,5 +1,6 @@
 # v2ray configuration example
 
+## With kcp and `wechat-video` encapsulation.
 ```json
 {
     "inbound": {
