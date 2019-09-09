@@ -1,9 +1,7 @@
 # How to setup llvm in MacOS
 
-## Table of contents
 
 - [How to setup llvm in MacOS](#how-to-setup-llvm-in-macos)
-  - [Table of contents](#table-of-contents)
   - [Why don't use Apple clang toolchain but llvm?](#why-dont-use-apple-clang-toolchain-but-llvm)
   - [How to install llvm](#how-to-install-llvm)
     - [Download the pre-compiled binary](#download-the-pre-compiled-binary)

@@ -2,10 +2,7 @@
 
 This guidance contains the most common problem user may occurs in archlinux daily use.
 
-## Table of contents
-
 - [Archlinux troubleshooting guidance](#archlinux-troubleshooting-guidance)
-  - [Table of contents](#table-of-contents)
   - [`clang-format` failed by don't have some shared library(libtinfo.so.5)](#clang-format-failed-by-dont-have-some-shared-librarylibtinfoso5)
     - [Description](#description)
     - [Step](#step)
@@ -45,6 +42,6 @@ It may cause by `open-vm-tools`, you need to exit `vmware fusion` completely and
 
 ### Step
 
-1.  Check wether `open-vm-tool` installed.
-2.  Exit `vmware fusion` and reopen it.
-3.  Resize and check if work.
+1. Check wether `open-vm-tool` installed.
+2. Exit `vmware fusion` and reopen it.
+3. Resize and check if work.

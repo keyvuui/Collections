@@ -2,10 +2,8 @@
 
 This guidance contains the common problem when using postgres daily.
 
-## Table of contents
 
 - [postgresql troubleshooting guidance](#postgresql-troubleshooting-guidance)
-  - [Table of contents](#table-of-contents)
   - [role "postgres" does not exist](#role-postgres-does-not-exist)
     - [Description](#description)
     - [Step](#step)

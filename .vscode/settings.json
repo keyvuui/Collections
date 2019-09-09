@@ -3,6 +3,7 @@
         "dont",
         "libncursesw",
         "librarylibtinfoso",
-        "libtinfo"
+        "libtinfo",
+        "llvm"
     ]
 }

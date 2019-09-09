@@ -2,10 +2,8 @@
 
 This article describes how to setup a linux kernel development on your own machine and cloud server.
 
-## Table of contents
 
 - [How to setup a Linux kernel module development environment](#how-to-setup-a-linux-kernel-module-development-environment)
-  - [Table of contents](#table-of-contents)
   - [Requirements](#requirements)
   - [Example environment](#example-environment)
   - [Basic Step](#basic-step)
