@@ -39,12 +39,10 @@ Once you have llvm installed, you need to set some environment variables to make
 
 ### Config your environment variables
 
-You need to write it into your own shell profile. If you use bash you need to write to `.bashrc`, and for zsh users editing your `.zshrc`.  Add the line blow to your configuration file.
-
-1.  Setting `CFLAGS`, automatically pass to the compile command when compile time. `CPATH` is the `include path` which compiler check it in compile time. Apple clang toolchain already set a default include path. But `LLVM clang` won't search the default include path of `system SDK` and `Frameworks`. For latest LLVM clang, only need to ser `CPATH` to **SDK** and **Framework**.
+1.  You don't need to set all kind of environment variables, just use `xcrun` to set that automatically. Make sure use all llvm relate command with xcrun:
 
     ```shell
-    export CPATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks
+    $ xcrun clang foo.c
     ```
 
 2.  Set `$PATH` so that shell can find clang or another tools.
