@@ -1,25 +1,25 @@
-site: Gesko
-title: Gesko
+site: keyvchan
+title: Keyv Chan
 description: >-
   just a minimalist, personal blog
 googlewebfonts: Fira+Code:wght@400;500;700
 lang: en-US
 timezone: Rome
-repo: https://github.com/p0wex/Gesko # site repo [optional]
+repo: https://github.com/keyvchan/keyvchan.github.io # site repo [optional]
 data-theme: dark # default theme "dark" | "light"
 
 author:
-  name: p0wex
+  name: Keyv Chan
   bio: just a minimalist, personal blog
-  username: p0wex # general username
-  github: p0wex # github username
-  twitter: P0Wex # twitter username
-  email: your-email@email.com # email adress
+  username: keyvchan # general username
+  github: keyvchan # github username
+  twitter: KeyvChan # twitter username
+  email: keyvchan@gmail.com # email adress
 
 # URL settings
-url: "https://powex.ml" #
-baseurl: "/Gesko" # leave blank if not wishd
-permalink: "https://powex.ml/Gesko/"
+url: "https://keyvchan.github.io" #
+# baseurl: "/Gesko" # leave blank if not wishd
+permalink: "https://keyvchan.github.io/"
 permalink: pretty 
 
 
