@@ -7,10 +7,6 @@ tags: database
 minute: 1
 ---
 
-# postgresql troubleshooting guidance
-
-This guidance contains the common problem when using postgres daily.
-
 - [postgresql troubleshooting guidance](#postgresql-troubleshooting-guidance)
   - [role "postgres" does not exist](#role-postgres-does-not-exist)
     - [Description](#description)
