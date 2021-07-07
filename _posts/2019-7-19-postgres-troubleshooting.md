@@ -1,18 +1,28 @@
+---
+layout: post
+title: postgresql troubleshooting guidance
+description: This guidance contains the common problem when using postgres daily.
+summary: This guidance contains the common problem when using postgres daily.
+tags: database
+minute: 1
+---
+
 # postgresql troubleshooting guidance
 
 This guidance contains the common problem when using postgres daily.
-
 
 - [postgresql troubleshooting guidance](#postgresql-troubleshooting-guidance)
   - [role "postgres" does not exist](#role-postgres-does-not-exist)
     - [Description](#description)
     - [Step](#step)
 
+---
+
 ## role "postgres" does not exist
 
 ### Description
 
-Try to run `createdb -U postgres keyv` but received `createuser: could not connect to database postgres: FATAL:  role "postgres" does not exist`.
+Try to run `createdb -U postgres keyv` but received `createuser: could not connect to database postgres: FATAL: role "postgres" does not exist`.
 
 It caused by don't have username is postgres. You can force reinitialize database and _force_ use `--username=postgres` specific username.
 

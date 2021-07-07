@@ -1,6 +1,5 @@
 # How to setup llvm in MacOS
 
-
 - [How to setup llvm in MacOS](#how-to-setup-llvm-in-macos)
   - [What difference between Apple clang and llvm's clang?](#what-difference-between-apple-clang-and-llvms-clang)
   - [How to install llvm](#how-to-install-llvm)
@@ -10,8 +9,7 @@
 
 ## What difference between Apple clang and llvm's clang?
 
-Apple clang is bundled with command line tool and `Xcode`. It have almost every feature if compare it to LLVM clang, but it lacks some extra tools for example `clang-format` and `clangd`. If you need them, you should install `LLVM`. Additionally, if you want to use unstable feature from compiler such as `C++20` features, you may need `LLVM`. 
-
+Apple clang is bundled with command line tool and `Xcode`. It have almost every feature if compare it to LLVM clang, but it lacks some extra tools for example `clang-format` and `clangd`. If you need them, you should install `LLVM`. Additionally, if you want to use unstable feature from compiler such as `C++20` features, you may need `LLVM`.
 
 ## How to install llvm
 
@@ -35,7 +33,7 @@ If you want the latest version, you can build it from source.
 
 ## How to config llvm
 
-Once you have llvm installed, you need to set some environment variables to make `LLVM` work. 
+Once you have llvm installed, you need to set some environment variables to make `LLVM` work.
 
 ### Config your environment variables
 
